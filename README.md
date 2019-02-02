@@ -1,3 +1,6 @@
+Rodar o npm install antes de executar o projeto, quando os arquivos estiverem instalados corretamente , execute no console o comando node app , a aplicação iniciará na porta 3009
+
+
 # [Quero ser Btime!](id:title)
 
 [English Version](https://github.com/Btime/IWantToBeBtime)
