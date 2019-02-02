@@ -2,10 +2,7 @@ module.exports.verify = function(application,req,res){
 
     let inputs = req.body;
     
-    
-
     req.assert('year','Ano não pode ser vazio').notEmpty();
-    // req.assert('nick','Apelido deve conter entre 3 e 15 caracteres').len(3,15);
 
     var errors = req.validationErrors();
 
@@ -21,11 +18,5 @@ module.exports.verify = function(application,req,res){
      res.render('index',{verifyResponse :isLeapYear});
      return;
 
-
-
-    // var io = application.get('io');
-    // io.emit('clientConnected',{nick:inputs.nick});
-
-    // res.render('chat',{nick:inputs.nick});
 
 }
