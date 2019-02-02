@@ -1,0 +1,22 @@
+{
+  "name": "teste-btime",
+  "version": "1.0.0",
+  "description": "teste-btime",
+  "main": "app.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thiagodevbrz/QueroSerBtime.git"
+  },
+  "author": "THIAGO PEREIRA",
+  "license": "ISC",
+  "homepage": "https://github.com/thiagodevbrz/QueroSerBtime.git",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-validator": "^5.2.0"
+  }
+}
